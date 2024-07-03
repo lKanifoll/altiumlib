@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=alti
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=0
@@ -17,9 +17,9 @@ DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=ALTIUM
-LastFocusedTable=v_all_radioparts
+LastFocusedTable=t_footprints
 [Table1]
 SchemaName=
 TableName=t_footprints
@@ -28,19 +28,25 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=39|Tag0=259|Ref0=340|Type0=78|Description0=614|Path0=159
+BrowserOrder_Visible=Description0=614|ID0=39|Tag0=259|Ref0=340|Type0=78|Path0=159
 [Table2]
 SchemaName=
 TableName=t_radioparts
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=956|ID0=42|Status0=63|MFPN0=255|Value0=213|Comment0=129|Manufacturer0=317|Supplier0=77|LCPN0=230|URL0=1016|Symbol0=245|Footprint0=259|Datasheet0=87|Notes0=61|rus_Supplier0=99
 [Table3]
 SchemaName=
 TableName=t_symbols
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=939|ID0=39|Tag0=110|Ref0=245|Type0=158|Path0=139
 [Table4]
 SchemaName=
 TableName=v_all_radioparts
@@ -49,37 +55,52 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=42|Type0=158|MFPN0=255|Value0=213|Footprint Type0=115|Comment0=129|Description0=956|Manufacturer0=317|Supplier0=74|LCPN0=230|URL0=1016|Datasheet0=87|Notes0=61|Symbol0=245|Library Ref0=245|Library Path0=139|Library Ref 20=102|Library Path 20=111|Library Ref 30=102|Library Path 30=111|Footprint0=259|Footprint Ref0=259|Footprint Path0=159|Footprint Ref 20=117|Footprint Path 20=126|Footprint Ref 30=117|Footprint Path 30=126|Footprint Ref 40=117|Footprint Path 40=126|Footprint Ref 50=117|Footprint Path 50=126|Footprint Ref 60=117|Footprint Path 60=126
+BrowserOrder_Visible=Description0=956|Library Ref0=245|Library Path0=139|Footprint Ref0=259|Footprint Path0=159|Footprint Ref 20=117|Footprint Path 20=126|Footprint Ref 30=117|Footprint Path 30=126|Footprint Ref 40=117|Footprint Path 40=126|Footprint Ref 50=117|Footprint Path 50=126|Footprint Ref 60=117|Footprint Path 60=126|MFPN0=255|ID0=42|Type0=158|Value0=213|Footprint Type0=115|Comment0=129|Manufacturer0=317|Supplier0=74|LCPN0=230|URL0=1016|Datasheet0=87|Notes0=61|Symbol0=245|Library Ref 20=102|Library Path 20=111|Library Ref 30=102|Library Path 30=111|Footprint0=259
 [Table5]
 SchemaName=
 TableName=v_all_radioparts_by_ID
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=956|Library Ref0=245|Library Path0=139|Footprint Ref0=259|Footprint Path0=159|Footprint Ref 20=117|Footprint Path 20=126|Footprint Ref 30=117|Footprint Path 30=126|Footprint Ref 40=117|Footprint Path 40=126|Footprint Ref 50=117|Footprint Path 50=126|Footprint Ref 60=117|Footprint Path 60=126|ID0=42|Type0=158|MFPN0=255|Value0=213|Footprint Type0=115|Comment0=129|Manufacturer0=317|Supplier0=77|LCPN0=230|URL0=1016|Datasheet0=87|Notes0=61|Symbol0=245|Footprint0=259
 [Table6]
 SchemaName=
 TableName=v_footprints
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Footprint Ref0=340|Footprint Path0=159|Footprint Ref 20=117|Footprint Path 20=126|Footprint Ref 30=117|Footprint Path 30=126|Footprint Ref 40=117|Footprint Path 40=126|Footprint Ref 50=117|Footprint Path 50=126|Footprint Ref 60=117|Footprint Path 60=126|Footprint0=340|Footprint Type0=115
 [Table7]
 SchemaName=
 TableName=v_internal_footprints
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Footprint ID0=100|Footprint0=340|Footprint Type0=115|Ref0=340|Path0=159
 [Table8]
 SchemaName=
 TableName=v_internal_symbols
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Symbol_ID0=90|Symbol0=245|Type0=158|Ref0=245|Path0=139
 [Table9]
 SchemaName=
 TableName=v_symbols
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Symbol0=245|Type0=158|Symbol Ref0=245|Symbol Path0=139|Symbol Ref 20=105|Symbol Path 20=114|Symbol Ref 30=105|Symbol Path 30=114
 [FieldMap1]
 Options=FieldName=t_footprints.Description|TableNameOnly=t_footprints|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -87,37 +108,37 @@ Options=FieldName=t_radioparts.Description|TableNameOnly=t_radioparts|FieldNameO
 [FieldMap3]
 Options=FieldName=t_symbols.Description|TableNameOnly=t_symbols|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=v_all_radioparts.ID|TableNameOnly=v_all_radioparts|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap5]
 Options=FieldName=v_all_radioparts.Description|TableNameOnly=v_all_radioparts|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap6]
+[FieldMap5]
 Options=FieldName=v_all_radioparts.Library Ref|TableNameOnly=v_all_radioparts|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
+[FieldMap6]
 Options=FieldName=v_all_radioparts.Library Path|TableNameOnly=v_all_radioparts|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap8]
+[FieldMap7]
 Options=FieldName=v_all_radioparts.Footprint Ref|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
+[FieldMap8]
 Options=FieldName=v_all_radioparts.Footprint Path|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
+[FieldMap9]
 Options=FieldName=v_all_radioparts.Footprint Ref 2|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
+[FieldMap10]
 Options=FieldName=v_all_radioparts.Footprint Path 2|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
+[FieldMap11]
 Options=FieldName=v_all_radioparts.Footprint Ref 3|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
+[FieldMap12]
 Options=FieldName=v_all_radioparts.Footprint Path 3|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
+[FieldMap13]
 Options=FieldName=v_all_radioparts.Footprint Ref 4|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
+[FieldMap14]
 Options=FieldName=v_all_radioparts.Footprint Path 4|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
+[FieldMap15]
 Options=FieldName=v_all_radioparts.Footprint Ref 5|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref 5|FieldType=1|ParameterName=[Footprint Ref 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
+[FieldMap16]
 Options=FieldName=v_all_radioparts.Footprint Path 5|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path 5|FieldType=1|ParameterName=[Footprint Path 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
+[FieldMap17]
 Options=FieldName=v_all_radioparts.Footprint Ref 6|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Ref 6|FieldType=1|ParameterName=[Footprint Ref 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
+[FieldMap18]
 Options=FieldName=v_all_radioparts.Footprint Path 6|TableNameOnly=v_all_radioparts|FieldNameOnly=Footprint Path 6|FieldType=1|ParameterName=[Footprint Path 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=v_all_radioparts.MFPN|TableNameOnly=v_all_radioparts|FieldNameOnly=MFPN|FieldType=0|ParameterName=MFPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
 Options=FieldName=v_all_radioparts_by_ID.Description|TableNameOnly=v_all_radioparts_by_ID|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
@@ -149,26 +170,28 @@ Options=FieldName=v_all_radioparts_by_ID.Footprint Ref 6|TableNameOnly=v_all_rad
 [FieldMap34]
 Options=FieldName=v_all_radioparts_by_ID.Footprint Path 6|TableNameOnly=v_all_radioparts_by_ID|FieldNameOnly=Footprint Path 6|FieldType=1|ParameterName=[Footprint Path 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=v_footprints.Footprint Ref|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_all_radioparts_by_ID.ID|TableNameOnly=v_all_radioparts_by_ID|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
-Options=FieldName=v_footprints.Footprint Path|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Ref|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
-Options=FieldName=v_footprints.Footprint Ref 2|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Path|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
-Options=FieldName=v_footprints.Footprint Path 2|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Ref 2|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=v_footprints.Footprint Ref 3|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Path 2|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=v_footprints.Footprint Path 3|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Ref 3|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=v_footprints.Footprint Ref 4|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Path 3|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=v_footprints.Footprint Path 4|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Ref 4|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 4|FieldType=1|ParameterName=[Footprint Ref 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=v_footprints.Footprint Ref 5|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 5|FieldType=1|ParameterName=[Footprint Ref 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Path 4|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 4|FieldType=1|ParameterName=[Footprint Path 4]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=v_footprints.Footprint Path 5|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 5|FieldType=1|ParameterName=[Footprint Path 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Ref 5|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 5|FieldType=1|ParameterName=[Footprint Ref 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=v_footprints.Footprint Ref 6|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 6|FieldType=1|ParameterName=[Footprint Ref 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=v_footprints.Footprint Path 5|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 5|FieldType=1|ParameterName=[Footprint Path 5]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
+Options=FieldName=v_footprints.Footprint Ref 6|TableNameOnly=v_footprints|FieldNameOnly=Footprint Ref 6|FieldType=1|ParameterName=[Footprint Ref 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
 Options=FieldName=v_footprints.Footprint Path 6|TableNameOnly=v_footprints|FieldNameOnly=Footprint Path 6|FieldType=1|ParameterName=[Footprint Path 6]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
