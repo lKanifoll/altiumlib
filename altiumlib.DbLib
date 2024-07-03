@@ -19,11 +19,11 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=ALTIUM
-LastFocusedTable=t_footprints
+LastFocusedTable=v_symbols
 [Table1]
 SchemaName=
 TableName=t_footprints
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -32,7 +32,7 @@ BrowserOrder_Visible=Description0=614|ID0=39|Tag0=259|Ref0=340|Type0=78|Path0=15
 [Table2]
 SchemaName=
 TableName=t_radioparts
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -41,7 +41,7 @@ BrowserOrder_Visible=Description0=956|ID0=42|Status0=63|MFPN0=255|Value0=213|Com
 [Table3]
 SchemaName=
 TableName=t_symbols
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -68,7 +68,7 @@ BrowserOrder_Visible=Description0=956|Library Ref0=245|Library Path0=139|Footpri
 [Table6]
 SchemaName=
 TableName=v_footprints
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -77,7 +77,7 @@ BrowserOrder_Visible=Footprint Ref0=340|Footprint Path0=159|Footprint Ref 20=117
 [Table7]
 SchemaName=
 TableName=v_internal_footprints
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -86,7 +86,7 @@ BrowserOrder_Visible=Footprint ID0=100|Footprint0=340|Footprint Type0=115|Ref0=3
 [Table8]
 SchemaName=
 TableName=v_internal_symbols
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
@@ -95,7 +95,7 @@ BrowserOrder_Visible=Symbol_ID0=90|Symbol0=245|Type0=158|Ref0=245|Path0=139
 [Table9]
 SchemaName=
 TableName=v_symbols
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
