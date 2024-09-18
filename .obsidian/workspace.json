@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "e77b24abe2c29b83",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f8537d6e5e44684",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bf6bd2a58d59d1b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75663fa04f7629c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7e9c47be19e37ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdcf51f19df6e4a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e7ea84b937e1ccd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7214a81e03a7b03",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "728a02726844501d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a2a6dd933f23546",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c17e63e2e358241",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5754ebda46eb9c27",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "396937fc1d3ec140",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c531defaf591a43b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3bf6bd2a58d59d1b",
+  "lastOpenFiles": [
+    "Hardware/Altium Designer/Работа с библиотекой.md",
+    "Hardware/Altium Designer/Настройка библиотеки компонентов.md",
+    "Hardware/Altium Designer/Мелочи.md",
+    "2024-09-18.md",
+    "Untitled.canvas",
+    "conflict-files-obsidian-git.md",
+    "Hardware/Altium Designer/Credentials.md",
+    "Pasted image 20240703093016.png",
+    "Pasted image 20240703092743.png",
+    "Pasted image 20240703092405.png",
+    "Pasted image 20240703091943.png",
+    "Pasted image 20240703091934.png",
+    "Pasted image 20240703091925.png",
+    "Pasted image 20240703091904.png",
+    "Pasted image 20240703091833.png",
+    "Pasted image 20240703091411.png",
+    "Pasted image 20240703091104.png",
+    "Software/Заметки про язык С/Нейминг в коде.md",
+    "Software/Заметки про язык С",
+    "Hardware/Altium Designer",
+    "Software",
+    "Hardware",
+    "Altium Designer/create a link.md",
+    "Altium Designer/Welcome.md",
+    "Hardware/Altium Designer"
+  ]
+}
