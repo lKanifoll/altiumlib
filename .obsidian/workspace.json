@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Работа с библиотекой.md",
+                "file": "docs/Настройка библиотеки компонентов.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Работа с библиотекой.md",
+                "file": "docs/Настройка библиотеки компонентов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Работа с библиотекой.md",
+                "file": "docs/Настройка библиотеки компонентов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Работа с библиотекой.md"
+                "file": "docs/Настройка библиотеки компонентов.md"
               }
             }
           }
@@ -152,9 +152,9 @@
   },
   "active": "54009333a81702ce",
   "lastOpenFiles": [
-    "docs/ToDo + Notes.md",
     "docs/Работа с библиотекой.md",
     "docs/Настройка библиотеки компонентов.md",
+    "docs/ToDo + Notes.md",
     "docs/pic/Pasted image 20240918235840.png",
     "Pasted image 20240918235533.png",
     "Pasted image 20240918235256.png",
