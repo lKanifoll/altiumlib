@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8f8537d6e5e44684",
+        "id": "5d62d299dace5d9f",
         "type": "tabs",
         "children": [
           {
-            "id": "3bf6bd2a58d59d1b",
+            "id": "54009333a81702ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Работа с библиотекой.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Работа с библиотекой.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Работа с библиотекой.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Работа с библиотекой.md"
+              }
             }
           }
         ]
@@ -130,6 +138,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -138,8 +150,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bf6bd2a58d59d1b",
+  "active": "54009333a81702ce",
   "lastOpenFiles": [
+    "docs/ToDo + Notes.md",
+    "docs/Работа с библиотекой.md",
+    "docs/Настройка библиотеки компонентов.md",
+    "docs/pic/Pasted image 20240918235840.png",
+    "Pasted image 20240918235533.png",
+    "Pasted image 20240918235256.png",
+    "Pasted image 20240918235400.png",
+    "docs/Credentials.md",
+    "Untitled.md",
+    "docs/pic/Pasted image 20240703093016.png",
+    "docs/pic/Pasted image 20240703092743.png",
+    "docs/pic/Pasted image 20240703092405.png",
+    "docs/pic/Pasted image 20240703091943.png",
+    "docs/pic/Pasted image 20240703091934.png",
+    "docs/pic/Pasted image 20240703091925.png",
+    "docs/pic",
+    "docs/Новая папка",
+    "docs",
     "Hardware/Altium Designer/Работа с библиотекой.md",
     "Hardware/Altium Designer/Настройка библиотеки компонентов.md",
     "Hardware/Altium Designer/Мелочи.md",
@@ -147,16 +177,6 @@
     "Untitled.canvas",
     "conflict-files-obsidian-git.md",
     "Hardware/Altium Designer/Credentials.md",
-    "Pasted image 20240703093016.png",
-    "Pasted image 20240703092743.png",
-    "Pasted image 20240703092405.png",
-    "Pasted image 20240703091943.png",
-    "Pasted image 20240703091934.png",
-    "Pasted image 20240703091925.png",
-    "Pasted image 20240703091904.png",
-    "Pasted image 20240703091833.png",
-    "Pasted image 20240703091411.png",
-    "Pasted image 20240703091104.png",
     "Software/Заметки про язык С/Нейминг в коде.md",
     "Software/Заметки про язык С",
     "Hardware/Altium Designer",
